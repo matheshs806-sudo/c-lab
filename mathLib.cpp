@@ -6,7 +6,7 @@ int main() {
 
     std::cout << "trunc(" << number << ") = " << trunc(number) << std::endl;
 #include <iostream>
-#include <cmath>    // Required for math functions
+#include <cmath>    
 
     std::cout << "sqrt(" << number << ") = " << sqrt(number) << std::endl;
     std::cout << "pow(" << number << ", 2) = " << pow(number, 2) << std::endl;
@@ -17,3 +17,4 @@ int main() {
 
     return 0;
 }
+
