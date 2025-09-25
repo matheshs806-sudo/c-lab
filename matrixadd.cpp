@@ -7,7 +7,6 @@ int main() {
 
     printf("Finding all integer roots of the equation x^2 - 5x + 6 = 0\n");
 
-    // Try values of x from -100 to 100
     for (x = -100; x <= 100; x++) {
         int result = x * x - 5 * x + 6;
 
@@ -23,3 +22,4 @@ int main() {
 
     return 0;
 }
+
